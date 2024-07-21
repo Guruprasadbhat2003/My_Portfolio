@@ -1,10 +1,10 @@
 import React from "react";
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaGlobe, FaUser } from "react-icons/fa";
 import Title from "../layouts/Title";
 import Card from "./Card";
-
+import { DiMongodb } from "react-icons/di";
+import { FaSquareWebAwesome } from "react-icons/fa6";
+import { BiBookOpen } from "react-icons/bi";
 const Features = () => {
   return (
     <section
@@ -14,38 +14,32 @@ const Features = () => {
       <Title title="Features" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Proficient in Modern Web Technologies"
+          des="Skilled in HTML, CSS, JavaScript, and frameworks like React,Node ensuring responsive and interactive experiences."
         />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<AiFillAppstore />}
+          title="Strong Problem-Solving Skills"
+          des="Expert in identifying, analyzing, and resolving complex issues efficiently. "
+          icon={<FaSquareWebAwesome />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiProgress />}
+          title="User-Centric Design"
+          des="Focused on creating intuitive, accessible, and engaging user interfaces. Employs user feedback and usability testing."
+          icon={<FaUser />}
         />
         <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaMobile />}
+          title="Backend Development"
+          des="Competent in server-side technologies like Node.js, Python, and databases such as MySQL and MongoDB."
+          icon={<DiMongodb />}
         />
         <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiAntdesign />}
+          title="UI-UX Design"
+          des="LUI design focuses on creating visually appealing and user-friendly interfaces that enhance user interaction and experience with a product or website.."
+          icon={<BiBookOpen />}
         />
         <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Web Hosting"
+          des="Utilizing robust infrastructure to guarantee consistent performance and accessibility."
           icon={<FaGlobe />}
         />
       </div>

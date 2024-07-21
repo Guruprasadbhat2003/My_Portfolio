@@ -1,4 +1,4 @@
-// import logo from "./images/logo.png";
+ import logo from "./images/logo.png";
 import me from "./images/me.jpg";
 // import projectOne from "./images/projects/projectOne.jpg";
 // import projectTwo from "./images/projects/projectTwo.jpg";
@@ -6,10 +6,11 @@ import me from "./images/me.jpg";
 // import testimonialOne from "./images/testmonial/testimonialOne.png";
 // import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 // import quote from "./images/testmonial/quote.png";
-// import contactImg from "./images/contact/contactImg.png";
+ 
+import contactImg from "./images/contactImg.jpg";
 
 export {
-  //logo,
+  logo,
   me,
   //projectOne,
   //projectTwo,
@@ -17,5 +18,5 @@ export {
   //testimonialOne,
   //testimonialTwo,
   //quote,
-  // contactImg,
+   contactImg,
 };

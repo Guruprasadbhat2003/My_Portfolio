@@ -1,21 +1,39 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-//import { logo } from "../../assets/index";
-
+import {  FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { logo } from "../../assets/index";
+import { FaSquareInstagram } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        {/* <img className="w-32" src={logo} alt="logo" /> */}
+        <img className="w-20" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+            <a
+              href="https://www.instagram.com/bhat__guruprasad?igsh=dXRyeHl6NGViY3Fl"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaSquareInstagram />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <a
+              href="https://x.com/gurubhatkodani"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a
+              href="https://www.linkedin.com/in/guruprasad-bhat-493117258/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn />
+            </a>
           </span>
         </div>
       </div>

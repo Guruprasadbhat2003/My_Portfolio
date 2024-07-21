@@ -27,3 +27,21 @@
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+/* Dark mode styles */
+.dark-mode {
+  background-color:blue;
+  color: #e0e0e0;
+}
+
+/* Ensure to update colors accordingly */
+.dark-mode .bg-bodyColor {
+  background-color:#03045e;
+}
+
+.dark-mode .text-gray-400 {
+  color: #b0b0b0;
+}
+
+.dark-mode .border-b-gray-600 {
+  border-bottom-color: #333;
+}
